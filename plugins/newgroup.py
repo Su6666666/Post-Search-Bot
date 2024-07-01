@@ -17,9 +17,9 @@ async def new_group(bot, message):
                        verified=False)
        m=await message.reply(f"<b>☤ ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {message.chat.title}\n\n🤖 ᴅᴏɴ’ᴛ ꜰᴏʀɢᴇᴛ ᴛᴏ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ 🤖\n\n♻️ ᴘʟᴇᴀꜱᴇ ɢᴇᴛ ᴀᴄᴄᴇꜱꜱ ʙʏ /verify ᴄᴏᴍᴍᴀɴᴅ\n\n🕵️ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛ ʏᴏᴜ ᴄʟᴇᴀʀ ɪᴛ ᴜsɪɴɢ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs</b>", 
 
-reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🥷  ʜᴇʟᴘ  🥷", url="https://telegram.me/CodeXSupport")],
+reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🥷  ʜᴇʟᴘ  🥷", url="https://telegram.me/SG_Movies_Request")],
 
-[InlineKeyboardButton("🧑‍💻  ᴏᴡɴᴇʀ  🧑‍💻", url="https://telegram.me/CodeXBro")]]))
+[InlineKeyboardButton("🧑‍💻  ᴏᴡɴᴇʀ  🧑‍💻", url="https://telegram.me/SubhajitGhosh0")]]))
        text=f"#NewGroup\n\nGroup: {message.chat.title}\nGroupID: `{message.chat.id}`\nAddedBy: {message.from_user.mention}\nUserID: `{message.from_user.id}`"
        await bot.send_message(chat_id=LOG_CHANNEL, text=text)
        await sleep(120)
