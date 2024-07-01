@@ -50,7 +50,7 @@ async def verify_(bot, update):
     if update.data.split("_")[1]=="approve":
        await update_group(id, {"verified":True})
        await bot.send_photo(chat_id=user, photo='https://telegra.ph/file/a706afc296de6da2a40c8.jpg', caption=f"<b>ʏᴏᴜʀ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀ {name} ʜᴀꜱ ʙᴇᴇɴ ᴀᴘᴘʀᴏᴠᴇᴅ ✅</b>", 
-       reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎪  ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ʏᴛ ᴄʜᴀɴɴᴇʟ  🎪", url="https://youtube.com/@RahulReviews")]]))
+       reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🎪  ꜱᴜʙꜱᴄʀɪʙᴇ ᴍʏ ᴄʜᴀɴɴᴇʟ  🎪", url="https://t.me/sgbackup")]]))
        await update.message.edit(update.message.text.html.replace("#NewRequest", "#Approved"))
     else:
        await delete_group(id)
