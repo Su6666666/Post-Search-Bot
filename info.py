@@ -1,8 +1,8 @@
-API_ID       = 
-API_HASH     = ""
-BOT_TOKEN    = ""
-SESSION      = ""
-DATABASE_URI = ""
-LOG_CHANNEL  =
-ADMIN        = 1255023013
-CHANNEL      = "RahulReviews"
+API_ID       = "26042863"
+API_HASH     = "d4fabc00b0345cd3f0ccdc0c9b750f6e"
+BOT_TOKEN    = "6934545157:AAH6DxN_eZblU97y8SdCmuPJC920AxRIxWI"
+SESSION      = "BQD6zg0AtukXemqtkk9aPmwK7ckCKogp1G19UwjfKNeSq4Kh-4TZhJUsoBI1RpvZopc2Mk_8tNan1x9nFoSwqIjr3L4gDAPEERMVXqmqRUT1KP5vJKGwUuIja-as86KEp_o98bUKDRpIhpCl2vCSpVL_0U8-VEIUkMV01SHYvSsYIOQZHb2yt7iePfpLcGN-evbcSqOxg18BrXgdQKkC5tDe6LgtgAHrRJ8foY1D8IsTsWg0exiDv-__Ydb9riKhXpgen2WtrvoBi5vtcRG3u8TkoH_zRsc4StRdnB2GFr2ZD-VZhBY-xKmYt0Sya_FtB7NNy7CKuij7myZkvs1ABO13XSDxsQAAAAGpxhs1AA"
+DATABASE_URI = "mongodb+srv://SGBACKUP4:SGBACKUP@cluster0.zjpcla3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+LOG_CHANNEL  = "-1001994332079"
+ADMIN        = "919169586"
+CHANNEL      = ""
