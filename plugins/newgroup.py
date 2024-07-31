@@ -19,7 +19,7 @@ async def new_group(bot, message):
 
 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🥷  ʜᴇʟᴘ  🥷", url="https://telegram.me/CodeXSupport")],
 
-[InlineKeyboardButton("🧑‍💻  ᴏᴡɴᴇʀ  🧑‍💻", url="https://telegram.me/CodeXBro")]]))
+[InlineKeyboardButton("🧑‍💻  ᴏᴡɴᴇʀ  🧑‍💻", url="https://telegram.me/SubhajitGhosh0")]]))
        text=f"#NewGroup\n\nGroup: {message.chat.title}\nGroupID: `{message.chat.id}`\nAddedBy: {message.from_user.mention}\nUserID: `{message.from_user.id}`"
        await bot.send_message(chat_id=LOG_CHANNEL, text=text)
        await sleep(120)
