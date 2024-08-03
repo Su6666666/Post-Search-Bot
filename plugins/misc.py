@@ -8,7 +8,7 @@ async def start(bot, message):
     await add_user(message.from_user.id, message.from_user.first_name)
     await message.reply(text=script.START.format(message.from_user.mention),
                         disable_web_page_preview=True,
-                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'https://t.me/sgbackup')
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⇄  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ⇄', url=f'http://t.me/Post_Finders_bot?startgroup=true')
             ],[InlineKeyboardButton("ʜᴇʟᴘ", url="http://telegram.me/SubhajitGhosh0"),
 
 InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_help")],[InlineKeyboardButton('❂   ᴏᴜʀ  ᴜᴘᴅᴀᴛᴇꜱ  ᴄʜᴀɴɴᴇʟ   ❂', url=f'https://t.me/sgbackup')]]))  
@@ -71,7 +71,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     await message.reply_text(
          text="<b>ʜʏ,\n\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴍᴏᴠɪᴇs / sᴇʀɪᴇs ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ꜰɪʀsᴛ ʙᴜᴛᴛᴏɴ ᴏʀ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ɪɴ ʙᴏᴛ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ sᴇᴄᴏɴᴅ ʙᴜᴛᴛᴏɴ</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝  ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"https://t.me/SG_Movies_Request")],[InlineKeyboardButton("🧑‍💻  ʙᴏᴛ ᴏᴡɴᴇʀ ", url=f"https://telegram.me/CodeXBro")]]), disable_web_page_preview=True
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝  ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"https://t.me/SG_Movie_Request")],[InlineKeyboardButton("🧑‍💻  ʙᴏᴛ ᴏᴡɴᴇʀ ", url=f"https://telegram.me/CodeXBro")]]), disable_web_page_preview=True
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
