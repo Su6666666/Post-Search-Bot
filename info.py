@@ -1,6 +1,6 @@
 API_ID       = "26042863"
 API_HASH     = "d4fabc00b0345cd3f0ccdc0c9b750f6e"
-BOT_TOKEN    = "6934545157:AAH6DxN_eZblU97y8SdCmuPJC920AxRIxWI"
+BOT_TOKEN    = ""
 SESSION      = "BQD6zg0AJ-AceaFlDdPmNFd4MgCXrpWGfC7ERk5aTtgMJ-lSP_t-qwC5mftgsf3Xgvu1YvIpP9imMEeLCuiqOL6WEgZdoU8362-OAL0UL56Up8aI5eNyCtqAyUJrxqMl_rfJb-1p-ZUpQ2s3ad8_bjTQyWYBCxva-SY8Fbt2FXHmgowcUu8xCVs83MAxzGNS6MLHHGtXbxjeHXzxhJ6Vf5gCxIH89lWNWkC5p6wL5gZ8Wi9rIUnrk1NxVXXwyU1tO7F6Tu3Wk4n03DmNLsPn6hwN_bmbLaEX0a99nnW6-GAUXL9U4vZ7szfdWfICrpMD9ySYgpPjRBUdL_WNxDKh_vMmdZovLgAAAAGpxhs1AA"
 DATABASE_URI = "mongodb+srv://SGBACKUP4:SGBACKUP@cluster0.zjpcla3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 LOG_CHANNEL  = "-1001994332079"
